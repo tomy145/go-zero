@@ -1,8 +1,6 @@
 module github.com/zeromicro/go-zero
 
-go 1.21
-
-toolchain go1.21.6
+go 1.20
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
@@ -44,9 +42,9 @@ require (
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	gopkg.in/h2non/gock.v1 v1.1.2
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.29.1
-	k8s.io/apimachinery v0.29.1
-	k8s.io/client-go v0.29.1
+	k8s.io/api v0.28.5
+	k8s.io/apimachinery v0.28.5
+	k8s.io/client-go v0.28.5
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
 )
 
